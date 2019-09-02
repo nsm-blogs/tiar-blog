@@ -33,7 +33,7 @@
  }
  
 #linenumbers{
-	
+	z-index: 999;
 	margin-right: 15px;
 	text-align: right;
 	overflow: hidden;
@@ -84,13 +84,14 @@
 }
  
 #left{
+	z-index: 999;
 	background-color: #2e3436;
 	width: 50px;
 	text-decoration: none;
 	display: table-cell;
 	top: 0px;
 	
-	background-image: url("images/bar.png");
+	background-image: url("./site/img/bar.png");
 	background-repeat: repeat-y;
 	background-position: 35px;
 	background-attachment: fixed;
