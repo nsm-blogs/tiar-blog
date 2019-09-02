@@ -38,7 +38,6 @@
 		</script>
 		<script>
 			for (var i = 0; i < 100; i++) { 
-				alert("yay");
 				document.getElementById("linenumbers").innerHTML += i.toString() + " <br>";
 			}
 		</script>
