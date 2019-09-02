@@ -68,16 +68,13 @@
 	font-size:15px;
 	font-family: monospace;
 	font-size:13px;
-	max-width: 80%;
+	max-width: 90%;
 	margin-top: 10px;
 }
 
 #pagetext
 {
-	max-width: 500px;
-	max-width: 80%;
-	display: inline-block;
-	float: left;
+	max-width: 600px;
 	margin-left: 0px;
 	margin-top: 30px
 }
@@ -93,15 +90,9 @@
 	position: fixed;
  }
  
- #right {
-	width: 10px; 
-    display: table-cell;
-	background-color:black;
- }
-  
+
  #filler {
-   display: table-cell;
-   max-width: 80%;
+   max-width: 90%;
    background: #180e0b;
  }
  
