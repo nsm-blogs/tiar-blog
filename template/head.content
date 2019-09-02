@@ -10,6 +10,11 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!--<script src="build/mediaelement-and-player.min.js"></script>
 <link rel="stylesheet" href="build/mediaelementplayer.min.css" />-->
+<script>
+	for (var i = 0; i < 100; i++) { 
+	    document.getElementById("linenumbers").innerHTML += i.toString() + " <br>";
+	}
+</script>
 
 <!-- uses google-code-prettify for syntax highlighting 
 	 see https://github.com/google/code-prettify for more info -->
