@@ -6,18 +6,20 @@
 
 	<body>	
 		<div id="contain">
-			<div id="left"><div id="linenumbers"><br></div></div>
+			<noselect><div id="left"><div id="linenumbers"><br></div></div></noselect>
 			
 			<div id="filler" style="margin-top:45px">
 				<div id="content">
 					<div id="pagetext">			
 						@inputcontent
-						<br><br><br><br><br><br><br>
+						<noselect><br><br><br><br><br><br><br></noselect>
 					</div>
 						
-					<div id="kangaroo">
-						<img src="@pathtofile(site/img/barRu.png)">
-					</div>
+					<noselect>
+						<div id="kangaroo">
+							<img src="@pathtofile(site/img/barRu.png)">
+						</div>
+					</noselect>
 				</div>
 			</div>
 		</div>
