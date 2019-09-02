@@ -68,14 +68,14 @@
 	font-size:15px;
 	font-family: monospace;
 	font-size:13px;
-	max-width: 90%;
+	max-width: 80%;
 	margin-top: 10px;
 }
 
 #pagetext
 {
 	max-width: 500px;
-	max-width: 90%;
+	max-width: 80%;
 	display: inline-block;
 	float: left;
 	margin-left: 0px;
@@ -101,7 +101,7 @@
   
  #filler {
    display: table-cell;
-   max-width: 90%;
+   max-width: 80%;
    background: #180e0b;
  }
  
