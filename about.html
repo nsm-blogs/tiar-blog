@@ -40,7 +40,7 @@
 
 	<body>	
 		<div id="contain">
-			<div id="left"><div id="linenumbers"><br></div></div>
+			<noselect><div id="left"><div id="linenumbers"><br></div></div></noselect>
 			
 			<div id="filler" style="margin-top:45px">
 				<div id="content">
@@ -67,23 +67,27 @@
 							3. To view changes locally enter **nsm build-updated** to build the updated pages, then view the site locally (see the [FAQ](faq.html) page for how).
 							4. To push the changes remotely, enter **nsm bcp "commit message"**. Note **bcp** will build the updated changes locally, commit the changes to your local repository and push the changes to the remote repository, which after a short delay will update your site online.
 						</textarea>
-						<br><br><br><br><br><br><br>
+						<noselect><br><br><br><br><br><br><br></noselect>
 					</div>
 						
-					<div id="kangaroo">
-						<img src="img/barRu.png">
-					</div>
+					<noselect>
+						<div id="kangaroo">
+							<img src="img/barRu.png">
+						</div>
+					</noselect>
 				</div>
 			</div>
 		</div>
 
-		<div id="headercorner">&nbsp</div>
-		<div id="header">
-			<a href="index.html"> <div id="menuitem">HOME</div></a> 
-			<a href="blog.html"> <div id="menuitem">BLOG</div></a>
-			<a href="about.html"> <div id="menuitem">ABOUT</div></a>
-			<a href="faq.html"> <div id="menuitem">FAQ</div></a> 
-		</div>
+		<noselect>
+			<div id="headercorner">&nbsp</div>
+			<div id="header">
+				<a href="index.html"> <div id="menuitem">HOME</div></a> 
+				<a href="blog.html"> <div id="menuitem">BLOG</div></a>
+				<a href="about.html"> <div id="menuitem">ABOUT</div></a>
+				<a href="faq.html"> <div id="menuitem">FAQ</div></a> 
+			</div>
+		</noselect>
 
 		<script src='js/process_pre_tags.js'></script>
 		<script src='js/process_md_blocks.js'></script>

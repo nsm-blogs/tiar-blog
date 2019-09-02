@@ -68,7 +68,7 @@
 	font-size:15px;
 	font-family: monospace;
 	font-size:13px;
-	max-width: 90%;
+	max-width: 85%;
 	margin-top: 10px;
 }
 
@@ -93,7 +93,7 @@
  
 
  #filler {
-   max-width: 90%;
+   max-width: 85%;
    background: #180e0b;
  }
  
@@ -239,4 +239,11 @@ td
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
  	background: #555; 
+}
+
+noselect
+{
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
 }
