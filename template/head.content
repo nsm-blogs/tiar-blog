@@ -2,6 +2,7 @@
 <title>tiar-site</title>
 
 
+<link rel="stylesheet" href="@pathtofile(site/css/blog.css)" type="text/css">
 <link rel="stylesheet" href="@pathtofile(site/css/style.css)" type="text/css">
 <link rel="stylesheet" href="@pathtofile(site/css/pre.css)" type="text/css">
 <link rel="shortcut icon" href="@pathtofile(site/img/favicon.ico)" type="image/x-icon">
