@@ -1,9 +1,10 @@
-21:36:16 Wednesday October 02 2019
-'blog/post02'
-post02
+23:40:29 Saturday January 04 2020
+blog
+blog
 'template/page.template'
 
-'content/blog/post02.content'
+'content/blog.content'
+'content/blog/posts.js'
 'template/head.content'
 'template/menu.content'
 'template/page.template'
