@@ -1,9 +1,10 @@
-23:40:29 Saturday January 04 2020
-index
-index
+09:46:45 Tuesday May 05 2020
+'blog'
+'blog'
 'template/page.template'
 
-'content/index.content'
+'content/blog.content'
+'content/blog/posts.js'
 'template/head.content'
 'template/menu.content'
 'template/page.template'
